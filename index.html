@@ -1,95 +1,232 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=100, shrink-to-fit=no">
-<title>Bootstrap 4 Responsive Layout Example</title>
-<link rel="stylesheet" href="css/bootstrap.min.css">
-<script src="http://code.jquery.com/jquery-3.3.1.min.js"></script>
-<script src="js/bootstrap.min.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
 </head>
+<style>
+    .box-header {
+        margin-top: 35px ; color: rgba(36, 34, 34, 0.671);
+    }
+
+    .box-Principal {
+        margin: 0px;
+        padding: 0px;
+        background-color: rgba(20, 240, 20, 0.89);
+        margin-bottom: 10px;
+        box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.75);
+        border-radius: 0 70px 0 70px;
+    }
+
+    #box-general {
+        width: 950px;
+        margin: 20px auto;
+        background-color: whitesmoke;
+        box-shadow: 0px 8px 25px 0px rgba(0, 0, 0, 0.75);
+        border-radius: 0 70px 0 70px;
+        border-left: 10px solid rgba(20, 240, 20, 0.89);
+        border-right: 1px solid rgba(0, 0, 0, 0.733);
+    }
+    ul{
+        list-style-type: circle;
+    }
+    a {
+    color: black;
+    }
+    h5 {
+        color: rgba(20, 161, 20, 0.87);
+        border-bottom: solid 1px rgba(168, 161, 161, 0.651);
+    }
+</style>
+
 <body>
-<nav class="navbar navbar-expand-md navbar-dark bg-dark mb-3">
-    <div class="container-fluid">
-        <a href="#" class="navbar-brand mr-3">Tutorial Republic</a>
-        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarCollapse">
-            <div class="navbar-nav">
-                <a href="#" class="nav-item nav-link active">Home</a>
-                <a href="#" class="nav-item nav-link">Services</a>
-                <a href="#" class="nav-item nav-link">About</a>
-                <a href="#" class="nav-item nav-link">Contact</a>
-            </div>
-            <div class="navbar-nav ml-auto">
-                <a href="#" class="nav-item nav-link">Register</a>
-                <a href="#" class="nav-item nav-link">Login</a>
+
+    <div class="container" id="box-general">
+        <!--BOX  -->
+        <div class="container box-Principal" >
+            <div class="row">
+
+                <div class="col col-md-3">
+                    <img class="img-thumbnail" src="FOTO_PERFIL.JPG"  alt="">
+                </div>
+                <div class="col col-md-9">
+                    <div class="box-header">
+                        <h4>Juan Claudio Torres de la Rosa</h4>
+                        <p>ING. INFORMATICA</p>
+                       <p> 4 de agosto, viet-nam los mina,#113 ,Santo Domingo Este Tel:809-788-0357 
+                           <br> Cel:809-432-8999 Juniorclaudio2010@gmail.com
+                        </p>
+                        <ul class="list-inline">
+                            <li class="list-inline-item">
+                                <a href=""  class="badge badge-primary badge-pill">Facebook</a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href=""  class="badge badge-danger badge-pill">Google +</a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href=" "  class="badge badge-primary badge-pill">Linkedin</a>
+                            </li>
+                            <li class="list-inline-item" >
+                                <a href="http://github.com/JuanTorres99"  class="badge badge-dark badge-pill">Github</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
             </div>
         </div>
-    </div>    
-</nav>
-<div class="container">
-    <div class="jumbotron">
-        <h1>Learn to Create Websites</h1>
-        <p class="lead">In today's world internet is the most popular way of connecting with the people. At <a href="https://www.tutorialrepublic.com" target="_blank">tutorialrepublic.com</a> you will learn the essential web development technologies along with real life practice examples, so that you can create your own website to connect with the people around the world.</p>
-        <p><a href="https://www.tutorialrepublic.com" target="_blank" class="btn btn-success btn-lg">Get started today</a></p>
+        <!--BOX  -->
+        <div class="container ">
+            <div class="row">
+
+                <div class="col col-md-12">
+                    <h5>Frase favorita</h5>
+                    <p > "Todo lo puedo en Cristo que me fortalece."
+                            Filipenses 4:13 </p>
+                </div>
+            </div>
+        </div>
+        <div class="container " >
+            <div class="row">
+
+                <div class="col col-md-12 ">
+                    <h5>Datos generales</h5>
+                    
+                    <ul>
+                           <li> Fecha Nacimiento: 09/05/1994</li>
+                           <li>Cedula: 402-2466042-9</li>
+                           <li>Nacionalidad: Dominicano</li>
+                           <li>Estado Civil: Soltero</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!--BOX  -->
+        <div class="container " >
+            <div class="row">
+
+                <div class="col col-md-12">
+                    <h5>Preparación Académica</h5>
+                    <ul>
+                           <li> Estudio primarios: Colegio Adventista Rohmer (tal - 2008).</li>
+                           <li> Estudios secundarios: Colegio Adventista Josefina W (2008 - 2012).</li>
+                           <li> IIng.Imformatica: UTESA santo domingo (2013 - actual).</li>
+                          
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!--BOX  -->
+        <div class="container " >
+            <div class="row">
+
+                <div class="col col-md-12">
+                    <h5>Cursos</h5>
+                    <ul>
+                           <li> INFOTEP: MANEJADOR MS WORD</li>
+                           <li> INFOTEP: MICROSOFT EXCEL INTERMEDIO</li>
+                           <li> CETA: DIPLOMADO EN DESARROLLO BACKEND PHP</li>
+                           <li> ITLA: MANEJADOR DE FUNDAMENTOS DE LA TECNOLOGIA DEL COMPUTADOR </li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+        <!--BOX  -->
+        <div class="container " >
+            <div class="row">
+
+                <div class="col col-md-12">
+                    <h5>Experiencia Laboral</h5>
+                    <ul>
+                           <li>Digitador: Centro de internet Angel-cibert 2009 - 2010.</li>
+                           <li>Area de Producion y Almacen: Cosmeticos HIDRALINE s.r.l 2013 - 2015.</li>
+                           <li>Soporte tecnico en el Area de Informatica: Cosmeticos Hidraline, s.r.l 2015 - actual.</li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+        <!--BOX  -->
+        <div class="container " >
+            <div class="row">
+
+                <div class="col col-md-12">
+                    <h5>Portafolio Y Skill / Tools</h5>
+                    <p><a href="http://jfenixprestamo.comli.com/">jfenixprestamo.comli.com</a></p>
+                        <!--/////////////-->
+                    <ul class="list-inline">
+                        <li class="list-inline-item">
+                            <span class="badge badge-success badge-pill">Visual Code</span>
+                        </li>
+                        <li class="list-inline-item">
+                            <span class="badge badge-success badge-pill">Python</span>
+                        </li>
+                        <li class="list-inline-item">
+                            <span class="badge badge-success badge-pill">jQuery</span>
+                        </li>
+                        <li class="list-inline-item">
+                            <span class="badge badge-success badge-pill">Git</span>
+                        </li>
+                        <li class="list-inline-item">
+                            <span class="badge badge-success badge-pill">HTML5</span>
+                        </li>
+                        <li class="list-inline-item">
+                            <span class="badge badge-success badge-pill">CSS3</span>
+                        </li>
+                        <li class="list-inline-item">
+                            <span class="badge badge-success badge-pill">Bootstrap</span>
+                        </li>
+                        <li class="list-inline-item">
+                            <span class="badge badge-success badge-pill">C#</span>
+                        </li>
+                    </ul>
+
+                </div>
+
+            </div>
+        </div>
+        <!--BOX  -->
+        <div class="container " >
+            <div class="row">
+
+                <div class="col col-md-12">
+                    <h5>Idiomas</h5>
+                    <p>Ingles: writing - intermedio, speaking - basico</p>
+                </div>
+
+            </div>
+        </div>
+        <!--BOX  -->
+        <div class="container " id="">
+            <div class="row">
+
+                <div class="col col-md-12">
+                    <h5>Intereses</h5>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col col-md-6" >
+                                <h6>Peliculas</h6>
+                                <ul class="list-inline">
+                                    <li class="list-inline-item">Inception</li>
+                                    <li class="list-inline-item">Mr. Nobody</li>
+                                </ul>
+                            </div>
+                            <div class="col col-md-6" >
+                                <h6>Libros</h6>
+                                <ul class="list-inline">
+                                    <li class="list-inline-item">Universo Holografico Autor:Michael Talbot</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--BOX  -->
     </div>
-    <div class="row">
-        <div class="col-md-6 col-lg-4 col-xl-3">
-            <h2>HTML</h2>
-            <p>HTML is the standard markup language for describing the structure of the web pages. Our HTML tutorials will help you to understand the basics of latest HTML5 language, so that you can create your own website.</p>
-            <p><a href="https://www.tutorialrepublic.com/html-tutorial/" target="_blank" class="btn btn-success">Learn More &raquo;</a></p>
-        </div>
-        <div class="col-md-6 col-lg-4 col-xl-3">
-            <h2>CSS</h2>
-            <p>CSS is used for describing the presentation of web pages. CSS can save a lot of time and effort. Our CSS tutorials will help you to learn the essentials of latest CSS3, so that you can control the style and layout of your website.</p>
-            <p><a href="https://www.tutorialrepublic.com/css-tutorial/" target="_blank" class="btn btn-success">Learn More &raquo;</a></p>
-        </div>
-        <div class="col-md-6 col-lg-4 col-xl-3">
-            <h2>JavaScript</h2>
-            <p>JavaScript is the most popular and widely used client-side scripting language. Our JavaScript tutorials will provide in-depth knowledge of the JavaScript including ES6 features, so that you can create interactive websites.</p>
-            <p><a href="https://www.tutorialrepublic.com/javascript-tutorial/" target="_blank" class="btn btn-success">Learn More &raquo;</a></p>
-        </div>
-        <div class="col-md-6 col-lg-4 col-xl-3">
-            <h2>Bootstrap</h2>
-            <p>Bootstrap is a powerful front-end framework for faster and easier web development. Our Bootstrap tutorials will help you to learn all the features of latest Bootstrap 4 framework so that you can easily create responsive websites.</p>
-            <p><a href="https://www.tutorialrepublic.com/twitter-bootstrap-tutorial/" target="_blank" class="btn btn-success">Learn More &raquo;</a></p>
-        </div>
-        <div class="col-md-6 col-lg-4 col-xl-3">
-            <h2>PHP</h2>
-            <p>PHP is the most popular server-side scripting language for creating dynamic web pages. Our PHP tutorials will help you to learn all the features of latest PHP7 scripting language so that you can easily create dynamic websites.</p>
-            <p><a href="https://www.tutorialrepublic.com/twitter-bootstrap-tutorial/" target="_blank" class="btn btn-success">Learn More &raquo;</a></p>
-        </div>
-        <div class="col-md-6 col-lg-4 col-xl-3">
-            <h2>SQL</h2>
-            <p>SQL is a standard language designed for managing data in relational database management system. Our SQL tutorials will help you to learn the fundamentals of the SQL language so that you can efficiently manage your databases.</p>
-            <p><a href="https://www.tutorialrepublic.com/twitter-bootstrap-tutorial/" target="_blank" class="btn btn-success">Learn More &raquo;</a></p>
-        </div>
-        <div class="col-md-6 col-lg-4 col-xl-3">
-            <h2>References</h2>
-            <p>Our references section outlines all the standard HTML5 tags and CSS3 properties along with other useful references such as color names and values, character entities, web safe fonts, language codes, HTTP messages, and more.</p>
-            <p><a href="https://www.tutorialrepublic.com/twitter-bootstrap-tutorial/" target="_blank" class="btn btn-success">Learn More &raquo;</a></p>
-        </div>
-        <div class="col-md-6 col-lg-4 col-xl-3">
-            <h2>FAQ</h2>
-            <p>Our Frequently Asked Questions (FAQ) section is an extensive collection of FAQs that provides quick and working solution of common questions and queries related to web design and development with live demo.</p>
-            <p><a href="https://www.tutorialrepublic.com/twitter-bootstrap-tutorial/" target="_blank" class="btn btn-success">Learn More &raquo;</a></p>
-        </div>
-    </div>
-    <hr>
-    <footer>
-        <div class="row">
-            <div class="col-md-6">
-                <p>Copyright © 2019 Tutorial Republic</p>
-            </div>
-            <div class="col-md-6 text-md-right">
-                <a href="#" class="text-dark">Terms of Use</a> 
-                <span class="text-muted mx-2">|</span> 
-                <a href="#" class="text-dark">Privacy Policy</a>
-            </div>
-        </div>
-    </footer>
-</div>
 </body>
 </html>
